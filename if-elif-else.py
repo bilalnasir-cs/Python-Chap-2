@@ -1,14 +1,7 @@
-'''
-Write an if-elif-else statement to check whether a number is positive , negative or zero.
-'''
-print("+ve/-ve/Zero Checker")
-print("****************")
-
-number = int(input("Enter an integer:"))
-
-if number > 0:
-    print(number,"is +ve")
-elif number < 0:
-    print(number,"is -ve")
+weather = "cloudy"
+if weather == "sunny":
+    print("Wear Sun Glasses")
+elif weather == "rainy":
+    print("Take an Umbrella")
 else:
-    print(number,"is zero")
+    print("Enjoy your day.")
