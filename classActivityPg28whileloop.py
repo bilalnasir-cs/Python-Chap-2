@@ -10,7 +10,7 @@ while i <= 20:
     if i % 2 == 0:
         print(i)
     else:
-        oddCount +=2
+        oddCount +=1
     
     i += 1
 
